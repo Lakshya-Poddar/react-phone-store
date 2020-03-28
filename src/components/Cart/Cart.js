@@ -18,11 +18,13 @@ export class Cart extends Component {
                         {
                             return(
                                 <React.Fragment>
+                                <div className="container">
 
                                 <Title name="Your" title="Cart"></Title>
                                 <CartColumns />
                                 <CartList value={value} />
                                 <CartTotals value={value} history={this.props.history}></CartTotals>
+                                </div>
                                 </React.Fragment>
                             )
                         }
