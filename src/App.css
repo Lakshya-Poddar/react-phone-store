@@ -13,6 +13,16 @@ body{
   width:100vw !important;
   height:100vh !important;
 }
+@media screen and (max-width: 667px) {
+  body {
+      overflow-x: hidden !important;
+  }
+  .container {
+      max-width: 100% !important;
+      overflow-x: hidden !important;
+  }
+}
+
 .text-title{
   font-family: 'Liu Jian Mao Cao', cursive;
   letter-spacing: 0.2rem;
