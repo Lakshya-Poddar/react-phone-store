@@ -10,6 +10,8 @@ body{
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
   overflow-x: hidden;
+  width:100vw;
+  height:100vh;
 }
 .text-title{
   font-family: 'Liu Jian Mao Cao', cursive;
